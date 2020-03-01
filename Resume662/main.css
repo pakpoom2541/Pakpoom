@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: cornsilk;
+    padding: 20px auto;
+    margin: 0 auto 20px auto;
+    height: 30px;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.header{
+    background-color: rgb(0, 0, 0,.8);
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+
+
+.container{
+    background-color: rgba(255, 255, 255, 0.664);
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:url(PIC/09-01-62\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-blend-mode: soft-light;
+    background-attachment: fixed;
+    position: relative;
+}
+
+img.logo{
+    width: 300px;
+    height: 300px;
+    margin: 40px 10px 20px 80px;
+    float: left;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+}
+
+
+.content{
+    margin: 0 auto;
+
+}
+
+img.contentSrt{
+    width: 50%;
+    height: 40%;
+    margin: 40px 50px 20px 250px;
+    border: 5px solid  rgb(255, 111, 44);
+    box-shadow: 10px 5px 5px rgb(0, 0, 0, 0.5);
+    transition: 0.4s;
+    overflow: hidden;
+    float: left;
+    
+}
+
+
+img.contentSrt:hover{
+    transform: scale(1.05);
+}
+
+p.contentSrt{
+    width: 50%;
+    height: 40%;
+    margin: 0px 50px 20px 250px;
+    border: 3px solid rgb(0, 2, 134);
+    background-color: rgba(255, 255, 255, 0.692);
+    text-align: center;
+    float: left;
+}
+
+.containerPro{
+    margin: 0 auto;
+    width: 960px;
+    background-color: rgba(165, 165, 165, 0.5);
+}
+
+.profile{
+    margin: 80px 180px 20px 10px ;
+    background-color: rgba(255, 255, 255, 0.753);
+    float: right;
+}
+
+.profile h2{
+    margin: 5px 5px 5px 5px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+
+.profile li{
+    margin: 5px 5px 5px 5px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 16px;
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.nextpage{
+    clear: both ;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: 900;
+    transition: 0.4s;
+}
+
+
+.nextpage:hover{
+    transform: scale(1.07);
+}
+.nextpage a{
+    text-transform: uppercase;
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+.assign{
+    text-align:center;
+    background-color: cornsilk;
+    height: 30px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+   
+}
+
+
+.assign a{
+    margin-top: 10px;
+    padding: 0px 30px 20PX 30px;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    transition: 0.4s;
+  
+}
+
+.assign a:hover{
+    background-color: tomato;
+}
+
+.footer{
+    background-color: rgb(0, 0, 0,.8);
+    padding: 20px 20px 20px 20px;
+    color: whitesmoke;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    clear: both;
+}
+
